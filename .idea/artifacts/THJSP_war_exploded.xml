@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="THJSP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/THJSP_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="THJSP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/lib/gson-2.8.2.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="THJSP/web/Web" />
+    </root>
+  </artifact>
+</component>
