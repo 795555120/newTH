@@ -25,12 +25,12 @@ public class LineChartServlet extends HttpServlet {
             x=Integer.parseInt(request.getParameter("x"));
             y=Integer.parseInt(request.getParameter("y"));
             substance=Integer.parseInt(request.getParameter("sub"));
-//            start=Integer.parseInt(request.getParameter("start"));
+            start=Integer.parseInt(request.getParameter("start"));
         System.out.println(x+"  y:"+y);
 
             GetLineChartData data=new GetLineChartData();
         System.out.println("data");
-            float [] lineChartDatas=  data.getData(1,x,y,substance);
+            float [] lineChartDatas=  data.getData(start,x,y,substance);
 
  System.out.println(lineChartDatas[3]);
         PrintWriter writer = response.getWriter();

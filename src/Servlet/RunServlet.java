@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.*;
 import java.io.*;
 
 @WebServlet("/RunServlet")
@@ -21,7 +22,7 @@ public class RunServlet extends HttpServlet {
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=UTF-8");
         String startTime=request.getParameter("startTime");
-  System.out.println(startTime);
+  System.out.println("startTime"+startTime);
 
         String[]clientInputSplit=startTime.trim().split("\\s+");
         String client=startTime.replaceAll(" ","");
@@ -57,7 +58,7 @@ public class RunServlet extends HttpServlet {
                 }
             }
         }
-//        System.out.println("用户输入："+clientInputSplit[0]+" "+clientInputSplit[1]+" "+clientInputSplit[2]+" "+"文件"+lineSplit[2]+" "+lineSplit[3]+" "+lineSplit[4]);
+        System.out.println("用户输入："+clientInputSplit[0]+" "+clientInputSplit[1]+" "+clientInputSplit[2]+" "+"文件"+lineSplit[2]+" "+lineSplit[3]+" "+lineSplit[4]);
 
         //判断用户输入使用和far文件中是否相等（目前已存为2019年4月6日）
         if(Integer.parseInt(clientInputSplit[0])==Integer.parseInt(lineSplit[2])&&Integer.parseInt(clientInputSplit[1])==Integer.parseInt(lineSplit[3])&&Integer.parseInt(clientInputSplit[2])==Integer.parseInt(lineSplit[4])) {
@@ -67,7 +68,9 @@ public class RunServlet extends HttpServlet {
             }else{
                 outcome[1]="0";
 //                JOptionPane.showMessageDialog(null, "无遥感影像数据参与计算");
+                System.out.println("无遥感影响参与计算");
             }
+
 
             //运行BAY_Time程序
             String cmd="cmd /c start D:\\RSM_TH\\BAY_TIME.exe";
@@ -152,6 +155,7 @@ public class RunServlet extends HttpServlet {
 
 
         }else{
+            System.out.println("数据不正确");
             outcome[0]="0";
         }
         PrintWriter out =response.getWriter();

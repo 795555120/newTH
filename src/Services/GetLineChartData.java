@@ -72,10 +72,6 @@ public class GetLineChartData {
 //
 
 
-
-
-
-
     public float[] getData(int start, int x, int y, int substance) {
         substance = substance + 7;
         float[] datas = new float[15];
@@ -98,12 +94,24 @@ public class GetLineChartData {
                         while ((line = bufferedReader.readLine()) != null) {
                             stringsPerLine = line.trim().split("\\s+");
 //                            if (Integer.parseInt(stringsPerLine[2]) == 2 && Integer.parseInt(stringsPerLine[0]) == x && Integer.parseInt(stringsPerLine[1]) == y) {
-                                //对应的是程序中的文件读取
-                            if (stringsPerLine.length == 25 && (int) Double.parseDouble(stringsPerLine[21]) == x && (int) Double.parseDouble(stringsPerLine[22])==y) {
+                            //对应的是程序中的文件读取
+                            if (stringsPerLine.length == 25 && (int) Double.parseDouble(stringsPerLine[21]) == x && (int) Double.parseDouble(stringsPerLine[22]) == y) {
 
-                                datas[count] = Float.parseFloat(stringsPerLine[substance - 1]);
-                                count++;
-                                break;
+                                if (substance > 7 && substance < 17) {
+                                    datas[count] = Float.parseFloat(stringsPerLine[substance - 1]);
+                                    count++;
+                                    break;
+                                }
+                                if (substance == 17) {
+                                    datas[count] = Float.parseFloat(stringsPerLine[7]) + Float.parseFloat(stringsPerLine[8]) + Float.parseFloat(stringsPerLine[13]);
+                                    count++;
+                                    break;
+                                }
+                                if (substance == 18) {
+                                    datas[count] = Float.parseFloat(stringsPerLine[9]) + Float.parseFloat(stringsPerLine[14]);
+                                    count++;
+                                    break;
+                                }
 
                             }
                         }

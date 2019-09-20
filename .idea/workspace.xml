@@ -6,7 +6,73 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1796bab8-c8df-4f4e-92ac-eebd567efdeb" name="Default Changelist" comment="遥感的后台  RemoteServelet TerrainData_Remote OutputData_Remote" />
+    <list default="true" id="1796bab8-c8df-4f4e-92ac-eebd567efdeb" name="Default Changelist" comment="遥感的后台  RemoteServelet TerrainData_Remote OutputData_Remote">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/FutureData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/FutureData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/GetLineChartData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/GetLineChartData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Host$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Host$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Host.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Mydata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/Mydata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/OutputData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/OutputData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/OutputData_Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/OutputData_Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/RealData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/RealData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/TerrainData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/TerrainData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/TerrainData_Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Services/TerrainData_Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/InputServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/InputServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/LineChartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/LineChartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/RemoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/RemoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/RunServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/RunServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/RunTimerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/RunTimerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/TerrainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/TerrainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Servlet/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/ColorCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/ColorCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/ColorGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/ColorGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/CountUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/CountUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/CountUtil_Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/CountUtil_Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/FilePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/FilePath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/MyTimerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/MyTimerTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/OutList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/WEB-INF/classes/Util/OutList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/THJSP_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/FutureData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/FutureData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/GetLineChartData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/GetLineChartData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/Host$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/Host$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/Host.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/Mydata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/Mydata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/OutputData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/OutputData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/OutputData_Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/OutputData_Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/RealData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/RealData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/TerrainData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/TerrainData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Services/TerrainData_Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Services/TerrainData_Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/InputServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/InputServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/LineChartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/LineChartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/RemoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/RemoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/RunServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/RunServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/RunTimerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/RunTimerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/TerrainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/TerrainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Servlet/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/ColorCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/ColorCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/ColorGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/ColorGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/CountUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/CountUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/CountUtil_Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/CountUtil_Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/FilePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/FilePath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/MyTimerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/MyTimerTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/THJSP/Util/OutList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/THJSP/Util/OutList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/GetLineChartData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/GetLineChartData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/OutputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/OutputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/LineChartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/LineChartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/RunServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/RunServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +88,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Services/TerrainData_Remote.java">
+        <entry file="file://$PROJECT_DIR$/src/Services/OutputData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1900">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+            <state relative-caret-position="77">
+              <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,38 +100,91 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="248">
+              <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="e#283#331#0#HTML" />
+                <element signature="e#343#413#0#HTML" />
+                <element signature="e#423#631#0#HTML" />
+                <element signature="e#648#834#0#HTML" />
+                <element signature="e#846#924#0#HTML" />
+                <element signature="e#935#1013#0#HTML" />
+                <element signature="e#1025#1248#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servlet/LineChartServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Services/GetLineChartData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Services/TerrainData.java">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+            <state relative-caret-position="125">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#body#0;n#html#0;n#!!top" />
+                <element signature="e#9574#9817#0#HTML" />
+                <element signature="e#9857#10095#0#HTML" />
+                <element signature="e#10588#19524#0#HTML" />
+                <element signature="e#11286#14957#0#HTML" />
+                <element signature="e#19671#19725#0#HTML" />
+                <element signature="e#23085#23564#0#HTML" />
+                <element signature="e#23719#25852#0#HTML" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home.jsp">
+        <entry file="file://$PROJECT_DIR$/src/Servlet/RunServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5450">
-              <caret line="221" column="16" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="16" />
+            <state relative-caret-position="70">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/count.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Services/TerrainData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
-                <element signature="e#114#285#0#JSP" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +214,7 @@
       <find>out</find>
       <find>list</find>
       <find />
+      <find>LineChartServlet</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -118,9 +238,14 @@
         <option value="$PROJECT_DIR$/src/Services/Host.java" />
         <option value="$PROJECT_DIR$/src/Util/FilePath.java" />
         <option value="$PROJECT_DIR$/src/Servlet/RemoteServlet.java" />
-        <option value="$PROJECT_DIR$/src/Services/OutputData.java" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/src/Services/TerrainData_Remote.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Services/OutputData.java" />
+        <option value="$PROJECT_DIR$/src/Services/GetLineChartData.java" />
+        <option value="$PROJECT_DIR$/src/Servlet/RunServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlet/LineChartServlet.java" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -140,11 +265,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="15" />
-    <option name="width" value="1620" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1947" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectId" id="1PlHR90KmfUCz8JuJdoIPU6Jvfl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -153,24 +278,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="THJSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="THJSP" type="462c0819:PsiDirectoryNode" />
+              <item name="newTH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newTH" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="THJSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="THJSP" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="newTH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newTH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="THJSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="THJSP" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="newTH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newTH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newTH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newTH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newTH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newTH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newTH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newTH" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,9 +325,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566373433977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568807535556" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -193,25 +336,25 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspaces\newTH\THJSP\src\test3" />
-      <recent name="D:\Java\javaProgram\THJSP\src\lib" />
-      <recent name="D:\Java\javaProgram\THJSP\web\images" />
-      <recent name="D:\project\taihu\THJSP(2)\THJSP\web" />
-      <recent name="D:\project\taihu\THJSP(2)\THJSP\web\echarts" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\javaProgram\THJSP\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Util" />
       <recent name="Services" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java\javaProgram\THJSP\web" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\太湖项目\newTH\web" />
+      <recent name="D:\Workspaces\newTH\THJSP\src\test3" />
+      <recent name="D:\Java\javaProgram\THJSP\src\lib" />
+      <recent name="D:\Java\javaProgram\THJSP\web\images" />
+      <recent name="D:\project\taihu\THJSP(2)\THJSP\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,18 +415,17 @@
     <configuration name="home.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/THJSP/home.jsp">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 9.0.201" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.201" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="9" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="Tomcat 9.0.201" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.201" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="THJSP:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/THJSP" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_THJSP" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_newTH" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -291,7 +433,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50199" />
+        <option name="DEBUG_PORT" value="51757" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -418,6 +560,8 @@
       <workItem from="1568726970384" duration="346000" />
       <workItem from="1568782701241" duration="619000" />
       <workItem from="1568783756483" duration="1633000" />
+      <workItem from="1568785905481" duration="3007000" />
+      <workItem from="1568947573664" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1566442069285</created>
@@ -458,7 +602,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49543000" />
+    <option name="totallyTimeSpent" value="54371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,9 +614,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20442359" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.283751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -482,13 +626,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49716714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3416252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41926345" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.049751244" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.5" />
@@ -504,6 +648,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,13 +736,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Servlet/LineChartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/FileDemo07.java" />
     <entry file="file://$PROJECT_DIR$/src/Util/OutList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,13 +756,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test3/Mydata.java" />
     <entry file="file://$PROJECT_DIR$/src/test3/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Services/GetLineChartData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/ColorGrade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -672,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/RunServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test3/Host.java" />
     <entry file="file://$PROJECT_DIR$/src/Services/Host.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,16 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2471">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/OutputData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,32 +875,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/TerrainData_Remote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        <state relative-caret-position="2100">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/count.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/TerrainData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        <state relative-caret-position="1075">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5450">
-          <caret line="221" column="16" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="16" />
-          <folding>
-            <element signature="e#114#285#0#JSP" />
           </folding>
         </state>
       </provider>
@@ -798,15 +919,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/Servlet/RunServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="70">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Services/OutputData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/LineChartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/GetLineChartData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#283#331#0#HTML" />
+            <element signature="e#343#413#0#HTML" />
+            <element signature="e#423#631#0#HTML" />
+            <element signature="e#648#834#0#HTML" />
+            <element signature="e#846#924#0#HTML" />
+            <element signature="e#935#1013#0#HTML" />
+            <element signature="e#1025#1248#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="e#9574#9817#0#HTML" />
+            <element signature="e#9857#10095#0#HTML" />
+            <element signature="e#10588#19524#0#HTML" />
+            <element signature="e#11286#14957#0#HTML" />
+            <element signature="e#19671#19725#0#HTML" />
+            <element signature="e#23085#23564#0#HTML" />
+            <element signature="e#23719#25852#0#HTML" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -819,6 +995,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

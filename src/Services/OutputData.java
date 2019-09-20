@@ -32,7 +32,7 @@ public class OutputData {
 
         long l1 = System.currentTimeMillis();
         System.out.println((l1-l)/1000.0);
-        System.out.println(stringArray.size());
+//        System.out.println(stringArray.size());
 
 
 
@@ -89,7 +89,7 @@ public class OutputData {
 
 
     public static List<String[]> read(String filename, int group) throws IOException, InterruptedException {
-        readSkips("C:\\Users\\xuange\\Desktop\\count.txt");
+        readSkips("C:\\Users\\Administrator\\Desktop\\太湖项目\\newTH\\src\\Util\\count.txt");
         int length=length(filename);
 //        System.out.println("文件总共有 "+length+" 行");
         Host host=new Host();
@@ -137,7 +137,7 @@ public class OutputData {
         for (Integer i:skips){
             count.add(i.toString());
         }
-        String skipfile="C:\\Users\\xuange\\Desktop\\count.txt";
+        String skipfile="C:\\Users\\Administrator\\Desktop\\太湖项目\\newTH\\src\\Util\\count.txt";
         File file=new File(skipfile);
         if (!file.exists()){
             write(skipfile, count);

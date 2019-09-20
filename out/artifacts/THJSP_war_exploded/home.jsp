@@ -9,7 +9,7 @@
 <html>
 <head>
     <base href="<%=basePath%>">
-    <title>My JSP 'main.jsp' starting page</title>
+    <title>太湖水质平台</title>
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
@@ -28,6 +28,7 @@
 
         body {
             background: #cefbb5;
+            overflow: hidden;
         }
 
         ul {
@@ -37,12 +38,12 @@
         .mainBox {
             position: relative;
             width: 1266px;
-            height: 980px;
+            height: 1080px;
         }
 
         .nav {
             width: 203px;
-            height: 980px;
+            height: 1080px;
             background: url("images/leftEdge.png") 0 0/203px no-repeat;
         }
 
@@ -52,7 +53,7 @@
             top: 0;
             left: 203px;
             width: 1691px;
-            height: 975px;
+            height: 1075px;
             margin: 10px;
             background: #f0fee9;
         }
@@ -63,7 +64,7 @@
             top: 0;
             left: 203px;
             width: 1691px;
-            height: 975px;
+            height: 1075px;
             margin: 10px;
             background: #f0fee9;
         }
@@ -71,9 +72,8 @@
         #waterMap, #checkMap {
             width: 601px;
             height: 557px;
-            margin: -20px 10px;
+            margin: 50px 10px;
             display: inline-block;
-            /*border: 1px solid black;*/
         }
 
         /*图表容器*/
@@ -144,7 +144,6 @@
         #checkMap {
             width: 850px;
             height: 700px;
-            /*border: 1px solid black;*/
             margin: 30px 10px;
         }
 
@@ -187,22 +186,16 @@
             margin-left: 30px;
         }
         .north{
-            width: 64px;
-            height: 64px;
-            margin: 50px 0 0 30px;
+            position: absolute;
+            top: 100px;
+            left: 50px;
         }
-        #checkMap{
-            margin-top: -50px;
-        }
-        .checkBox{
-            margin-top: -110px;
-        }
-    </style>
 
+    </style>
 </head>
 <body>
 <header>
-    <img src="images/aboveEdge.png">
+    <img src="images/aboveEdge.png" >
 </header>
 <div class="mainBox">
     <!-- 左侧菜单导航部分 -->
@@ -212,12 +205,13 @@
             <li><img src="images/checkResults_darkGreen.png"></li>
         </ul>
     </div>
+
     <!-- 右侧内容显示 -->
     <!-- 水质模型界面 -->
     <div id="waterModel">
         <img src="images/waterQualityModel.png">
-        <div class="north"><img src="images/north2.png" alt="404"></div>
-       <canvas id="waterMap" width="902" height="836"></canvas>
+        <img src="images/north.png" alt="404" class="north"/>
+        <canvas id="waterMap" width="902" height="836"></canvas>
         <div class="btn">
             <ul>
                 <li>
@@ -274,7 +268,7 @@
     <!-- 查看遥感反演结果 -->
     <div id="checkResults">
         <img src="images/remoteSensingIntersion.png">
-        <div class="north"><img src="images/north2.png" alt="404"></div>
+        <img src="images/north.png" alt="404" class="north"/>
         <canvas id="checkMap" width="902" height="836"></canvas>
         <div class="checkBox">
             <ul>
@@ -357,13 +351,13 @@
                 alert("输入值有错误")
             }
             //封装发送的file对象
-            let file = {sub: sub, start: qulityStartTime, end: qulityEendTime, sava: qulityStartTime};
-            console.log(file.sub, file.start, file.end)
+            let file = {sub: sub, start: qulityStartTime, end: qulityEendTime};
+            console.log(file.sub, file.start, file.end);
 
             //进行起始时间的判断，确定发送几次请求
             if (qulityStartTime == qulityEendTime) {
                 //相等，发送一次
-                console.time("ajax")
+                console.time("ajax");
                 $.ajax({
                     type: "post",
                     dataType: "json",
@@ -550,7 +544,8 @@
             //获取索引
             let options = $("#qualityIndex option:selected");//获取当前选择项.
             let sub = +options.val();
-            const location = {x: x, y: y, sub: sub};
+            let qulityStartTime = $("#qulityStartTime").val();
+            const location = {x: x, y: y, sub: sub, start: qulityStartTime};
             console.log(location)
             // 发送请求
             $.ajax({
@@ -626,8 +621,6 @@
                 }
             });
         }
-
-
         //开始计算
         let startCalculate = document.getElementById('startCalculate');
 
@@ -845,8 +838,8 @@
         }
 
         check_show.onclick = check_btn;
-        let width = $(window).width();
-        console.log('宽高' + width)
+
+
     }
 </script>
 </html>
